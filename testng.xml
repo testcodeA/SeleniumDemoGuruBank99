@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Functional">
+    <classes>
+      <class name="com.demoguru99bank.test.TC_01LoginTest"/>
+      <class name="com.demoguru99bank.test.TC_06VerifyFundTransferTest"/>
+      <class name="com.demoguru99bank.test.TC_05VerfiyDepositTest"/>
+      <class name="com.demoguru99bank.test.TC_07VerifyCustomisedStatementTest"/>
+      <class name="com.demoguru99bank.test.TC_04VerifyNewAccountTest"/>
+      <class name="com.demoguru99bank.test.TC_02VerifyAddNewCustomerTest"/>
+      <class name="com.demoguru99bank.test.TC_03VerifyEditCustomeTest"/>
+    </classes>
+  </test> <!-- Functional -->
+</suite> <!-- Suite -->

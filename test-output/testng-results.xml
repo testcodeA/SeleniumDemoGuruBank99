@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="277410" started-at="2022-08-20T12:44:45Z" finished-at="2022-08-20T12:49:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="277410" started-at="2022-08-20T12:44:45Z" finished-at="2022-08-20T12:49:23Z">
+      <class name="com.demoguru99bank.test.TC_05VerfiyDepositTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demoguru99bank.test.TC_05VerfiyDepositTest@69ea3742]" name="setup" is-config="true" duration-ms="14948" started-at="2022-08-20T12:45:37Z" finished-at="2022-08-20T12:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deposit()[pri:0, instance:com.demoguru99bank.test.TC_05VerfiyDepositTest@69ea3742]" name="deposit" duration-ms="35094" started-at="2022-08-20T12:45:52Z" finished-at="2022-08-20T12:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deposit -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.demoguru99bank.test.TC_05VerfiyDepositTest@69ea3742]" name="teardown" is-config="true" duration-ms="8695" started-at="2022-08-20T12:46:27Z" finished-at="2022-08-20T12:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoguru99bank.test.TC_05VerfiyDepositTest -->
+      <class name="com.demoguru99bank.test.TC_06VerifyFundTransferTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demoguru99bank.test.TC_06VerifyFundTransferTest@4bec1f0c]" name="setup" is-config="true" duration-ms="8938" started-at="2022-08-20T12:47:20Z" finished-at="2022-08-20T12:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="fundTransfer()[pri:0, instance:com.demoguru99bank.test.TC_06VerifyFundTransferTest@4bec1f0c]" name="fundTransfer" duration-ms="27649" started-at="2022-08-20T12:47:28Z" finished-at="2022-08-20T12:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransfer -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.demoguru99bank.test.TC_06VerifyFundTransferTest@4bec1f0c]" name="teardown" is-config="true" duration-ms="7115" started-at="2022-08-20T12:47:56Z" finished-at="2022-08-20T12:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoguru99bank.test.TC_06VerifyFundTransferTest -->
+      <class name="com.demoguru99bank.test.TC_01LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demoguru99bank.test.TC_01LoginTest@3159c4b8]" name="setup" is-config="true" duration-ms="7428" started-at="2022-08-20T12:48:03Z" finished-at="2022-08-20T12:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.demoguru99bank.test.TC_01LoginTest@3159c4b8]" name="login" duration-ms="6510" started-at="2022-08-20T12:48:11Z" finished-at="2022-08-20T12:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.demoguru99bank.test.TC_01LoginTest@3159c4b8]" name="teardown" is-config="true" duration-ms="7963" started-at="2022-08-20T12:48:17Z" finished-at="2022-08-20T12:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoguru99bank.test.TC_01LoginTest -->
+      <class name="com.demoguru99bank.test.TC_03VerifyEditCustomeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demoguru99bank.test.TC_03VerifyEditCustomeTest@73846619]" name="setup" is-config="true" duration-ms="9738" started-at="2022-08-20T12:48:56Z" finished-at="2022-08-20T12:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="editCustomer()[pri:0, instance:com.demoguru99bank.test.TC_03VerifyEditCustomeTest@73846619]" name="editCustomer" duration-ms="10083" started-at="2022-08-20T12:49:06Z" finished-at="2022-08-20T12:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.demoguru99bank.test.TC_03VerifyEditCustomeTest@73846619]" name="teardown" is-config="true" duration-ms="7216" started-at="2022-08-20T12:49:16Z" finished-at="2022-08-20T12:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoguru99bank.test.TC_03VerifyEditCustomeTest -->
+      <class name="com.demoguru99bank.test.TC_02VerifyAddNewCustomerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demoguru99bank.test.TC_02VerifyAddNewCustomerTest@4b952a2d]" name="setup" is-config="true" duration-ms="11784" started-at="2022-08-20T12:46:36Z" finished-at="2022-08-20T12:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyNewCustomer()[pri:0, instance:com.demoguru99bank.test.TC_02VerifyAddNewCustomerTest@4b952a2d]" name="VerifyNewCustomer" duration-ms="23004" started-at="2022-08-20T12:46:48Z" finished-at="2022-08-20T12:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNewCustomer -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.demoguru99bank.test.TC_02VerifyAddNewCustomerTest@4b952a2d]" name="teardown" is-config="true" duration-ms="8731" started-at="2022-08-20T12:47:11Z" finished-at="2022-08-20T12:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoguru99bank.test.TC_02VerifyAddNewCustomerTest -->
+      <class name="com.demoguru99bank.test.TC_04VerifyNewAccountTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demoguru99bank.test.TC_04VerifyNewAccountTest@29ca901e]" name="setup" is-config="true" duration-ms="9919" started-at="2022-08-20T12:48:25Z" finished-at="2022-08-20T12:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="newaccount()[pri:0, instance:com.demoguru99bank.test.TC_04VerifyNewAccountTest@29ca901e]" name="newaccount" duration-ms="13655" started-at="2022-08-20T12:48:35Z" finished-at="2022-08-20T12:48:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newaccount -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.demoguru99bank.test.TC_04VerifyNewAccountTest@29ca901e]" name="teardown" is-config="true" duration-ms="7067" started-at="2022-08-20T12:48:49Z" finished-at="2022-08-20T12:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoguru99bank.test.TC_04VerifyNewAccountTest -->
+      <class name="com.demoguru99bank.test.TC_07VerifyCustomisedStatementTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demoguru99bank.test.TC_07VerifyCustomisedStatementTest@5702b3b1]" name="setup" is-config="true" duration-ms="23862" started-at="2022-08-20T12:44:46Z" finished-at="2022-08-20T12:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="customisedStatement()[pri:0, instance:com.demoguru99bank.test.TC_07VerifyCustomisedStatementTest@5702b3b1]" name="customisedStatement" duration-ms="19024" started-at="2022-08-20T12:45:09Z" finished-at="2022-08-20T12:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customisedStatement -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.demoguru99bank.test.TC_07VerifyCustomisedStatementTest@5702b3b1]" name="teardown" is-config="true" duration-ms="8897" started-at="2022-08-20T12:45:28Z" finished-at="2022-08-20T12:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoguru99bank.test.TC_07VerifyCustomisedStatementTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
